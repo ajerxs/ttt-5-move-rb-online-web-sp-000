@@ -12,6 +12,6 @@ def input_to_index(user_input)
 end
 
 board = [" "," "," "," "," "," "," "," "," "]
-def move(array, index, value)
-  array[index] = value
+def move(array, index, user_input)
+  array[index] = user_input
 end
